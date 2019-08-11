@@ -15,14 +15,16 @@ async def on_ready():
 
 @client.event
 async def on_message(message):
-    a = b
-    b = message
-    mess = message.content.lower()
-    auth = message.author
-    channel = message.channel
-    if mess == "arrows?":
-        await a.add_reaction('⬅️')
-        await a.add_reaction('➡️')
+  global a
+  global b
+  a = b
+  b = message
+  mess = message.content.lower()
+  auth = message.author
+  channel = message.channel
+  if mess == "arrows?":
+      await a.add_reaction('⬅️')
+      await a.add_reaction('➡️')
         
  
 client.run(os.environ['BOT_TOKEN'])
