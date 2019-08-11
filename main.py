@@ -22,7 +22,7 @@ async def on_message(message):
   mess = message.content.lower()
   auth = message.author.id
   channel = message.channel
-  if auth == botid:
+  #if auth == botid:
     a = b
     b = message
     
