@@ -7,8 +7,8 @@ import os
 botid = "585401301731377163"
 
 client = discord.Client()
-a = "610063326872993823"
-b = "610063375082192926"
+a = 610063326872993823
+b = 610063375082192926
                
 @client.event
 async def on_ready():
