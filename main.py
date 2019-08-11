@@ -22,7 +22,7 @@ async def on_message(message):
   mess = message.content.lower()
   auth = message.author
   channel = message.channel
-  if mess == "arrows?":
+  if mess == "ar?":
       await a.add_reaction('⬅')
       await a.add_reaction('➡')
         
