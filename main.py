@@ -23,8 +23,8 @@ async def on_message(message):
   auth = message.author
   channel = message.channel
   if mess == "arrows?":
-      await a.add_reaction('⬅️')
-      await a.add_reaction('➡️')
+      await a.add_reaction('⬅')
+      await a.add_reaction('➡')
         
  
 client.run(os.environ['BOT_TOKEN'])
