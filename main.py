@@ -23,8 +23,8 @@ async def on_message(message):
   auth = message.author.id
   channel = message.channel
   #if auth == botid:
-    a = b
-    b = message
+  a = b
+  b = message
     
   if mess == "ar?":
       await a.add_reaction('⬅')
